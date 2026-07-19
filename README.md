@@ -31,12 +31,12 @@ This repository contains my collection of mini projects built while learning **H
 
 | # | Project | Status | Demo |
 |---|---------|--------|------|
-| 01 | Digital Clock | ⏳ | Coming Soon |
-| 02 | Counter App | ⏳ | Coming Soon |
+| 01 | Counter App| ⏳ | Coming Soon |
+| 02 | Weather App | ⏳ | Coming Soon |
 | 03 | BMI Calculator | ⏳ | Coming Soon |
 | 04 | Tip Calculator | ⏳ | Coming Soon |
 | 05 | Password Generator | ⏳ | Coming Soon |
-| 06 | Weather App | ⏳ | Coming Soon |
+| 06 | Unit converter | ⏳ | Coming Soon |
 | 07 | Todo App | ⏳ | Coming Soon |
 | ... | More Projects | 🚧 | - |
 
