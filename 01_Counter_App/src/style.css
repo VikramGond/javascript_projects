@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(6, 1, 23);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 50px 10px;
+    height: 300px;
+}
+
+#count {
+    font-size: 6rem;
+}
+
+button {
+    font-size: 2rem;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+#increment {
+    width: 60px;
+}
+
+#decrement {
+    width: 60px;
+}
+
+#reset {
+    width: 100px;
+}
+
