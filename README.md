@@ -2,22 +2,22 @@
 
 Welcome to my **JavaScript Projects** repository!
 
-This repository contains my collection of mini projects built while learning **HTML, CSS, and JavaScript**. The goal is to strengthen my frontend development skills by building real projects and improving my understanding of the DOM, APIs, asynchronous JavaScript, responsive design, and modern JavaScript concepts.
+This repository contains mini projects that I build while learning **HTML, CSS, and JavaScript**. My goal is to strengthen my frontend development skills before moving on to React and full-stack development.
 
 ---
 
 ## 🎯 Goals
 
-- Practice HTML, CSS, and JavaScript
-- Improve problem-solving skills
-- Learn by building real projects
+- Build real-world JavaScript projects
+- Improve DOM manipulation skills
+- Learn asynchronous JavaScript
+- Practice responsive web design
 - Write clean and maintainable code
-- Track my learning progress
-- Prepare for React and full-stack development
+- Track my learning journey
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
@@ -29,42 +29,39 @@ This repository contains my collection of mini projects built while learning **H
 
 ## 📂 Projects
 
-| # | Project | Status | Demo |
-|---|---------|--------|------|
-| 01 | Counter App| ⏳ | Coming Soon |
-| 02 | Weather App | ⏳ | Coming Soon |
-| 03 | BMI Calculator | ⏳ | Coming Soon |
-| 04 | Tip Calculator | ⏳ | Coming Soon |
-| 05 | Password Generator | ⏳ | Coming Soon |
-| 06 | Unit converter | ⏳ | Coming Soon |
-| 07 | Todo App | ⏳ | Coming Soon |
-| ... | More Projects | 🚧 | - |
-
-> This table will be updated as I complete new projects.
+| No. | Project | Description | Status | Source |
+|-----|---------|-------------|--------|--------|
+| 01 | Counter App | A simple counter with increment, decrement, and reset functionality. | ✅ Completed | [View](./01-counter-app/) |
+| 02 | Digital Clock | Displays the current time and updates every second. | 🚧 In Progress | - |
+| 03 | Password Generator | Generate secure passwords with customizable options. | ⏳ Planned | - |
+| 04 | Weather App | Fetches live weather data using an API. | ⏳ Planned | - |
 
 ---
 
-## 📁 Repository Structure
+## 📸 Featured Project
 
-```
-javascript-projects/
-│
-├── 
-└── README.md
-```
+### Counter App
 
-Each project contains its own source code and may include a separate README with additional details.
+![Counter App](01-counter-app/assets/images/screenshot.png)
 
----
+**Features**
 
-## 📈 Learning Journey
-
-This repository documents my progress as I build projects of increasing complexity—from beginner-friendly DOM projects to more advanced applications involving APIs, Local Storage, and asynchronous JavaScript.
+- Increment counter
+- Decrement counter
+- Reset counter
+- Responsive design
+- Clean UI
 
 ---
 
-## 📬 Feedback
+## 📈 Progress
 
-If you have suggestions or ideas for improvement, feel free to open an issue or submit a pull request.
+- ✅ Projects Completed: **1**
+- 🚧 Projects In Progress: **0**
+- 🎯 Target: **30+ JavaScript Projects**
 
-Happy Coding! 🚀
+---
+
+## 📄 License
+
+This repository is licensed under the MIT License.
