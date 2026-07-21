@@ -4,7 +4,7 @@ A simple and responsive counter application built with HTML, CSS, and JavaScript
 
 ## 📸 Preview
 
-![Counter App](assets/images/Counter%20App.png)
+![Counter App](assets/images/counter%preview.gif)
 
 ---
 
