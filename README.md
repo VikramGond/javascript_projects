@@ -31,7 +31,7 @@ This repository contains mini projects that I build while learning **HTML, CSS, 
 
 | No. | Project | Description | Status | Source |
 |-----|---------|-------------|--------|--------|
-| 01 | Counter App | A simple counter with increment, decrement, and reset functionality. | ✅Completed | [View](./01-counter-app/) |
+| 01 | Counter App | A simple counter with increment, decrement, and reset functionality. | ✅Completed | [View](./01-Counter-app/) |
 | 02 | Digital Clock | Displays the current time and updates every second. | ✅Completed | [View](./02-digital-clock/) |
 | 03 | Password Generator | Generate secure passwords with customizable options. | ⏳ Planned | - |
 | 04 | Weather App | Fetches live weather data using an API. | ⏳ Planned | - |
