@@ -2,7 +2,20 @@ const clock = document.getElementById("clock");
 const today = document.getElementById("date");
 const selectFormat = document.getElementById("format");
 let format = 12;
-let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
 selectFormat.addEventListener("change", (event) => {
   format = event.target.value;
@@ -29,6 +42,10 @@ const updateTime = () => {
   } else {
     time = `${formatter(hours)}:${formatter(minutes)}:${formatter(seconds)}`;
   }
+
+  if (hours === 0 && minutes === 0 && seconds === 0) {
+    updateDate();
+  }
   clock.textContent = time;
 };
 
@@ -39,8 +56,8 @@ const updateDate = () => {
   let date = now.getDate();
   let month = now.getMonth();
   let year = now.getFullYear();
-
-  today.textContent = `${formatter(date)}-${(formatter(month + 1))}-${formatter(year)}`;
+  // today.textContent = `${formatter(date)}-${(formatter(month + 1))}-${formatter(year)}`;
+  today.textContent = `${formatter(date)}-${months[month]}-${formatter(year)}`;
 };
 updateDate();
 
