@@ -1,16 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Clock</title>
-    <link rel="stylesheet" href="src/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
     <main class="main" id="main">
-        <p id="date"></p>
-        <p id="clock"></p>
+      <div class="container" id="container">
+        <select name="time" id="format" onchange="updateTime()">
+          <option value="12">12hrs</option>
+          <option value="24">24hrs</option>
+        </select>
+        <div class="clockFrame" id="clockFrame">
+          <p id="date"></p>
+          <p id="clock"></p>
+        </div>
+      </div>
     </main>
     <script src="src/script.js"></script>
-</body>
+  </body>
 </html>
