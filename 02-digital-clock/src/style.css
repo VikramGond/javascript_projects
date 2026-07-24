@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    border: 2px solid white;
+    padding: 20px;
+}
+
+select {
+    outline: none;
+    border: none;
+    position: relative;
+    font-size: 16px;
+    bottom: 10px;
+    right: -100px;
+    margin-bottom: 50px;
+}
+
+#date {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+
