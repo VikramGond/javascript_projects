@@ -40,7 +40,7 @@ const updateTime = () => {
       time = `${formatter(hours > 12 ? hours - 12 : hours)}:${formatter(minutes)}:${formatter(seconds)} ${hours >= 12 ? "PM" : "AM"}`;
     }
   } else {
-    time = `${formatter(hours)}:${formatter(minutes)}:${formatter(seconds)}`;
+    time = `${formatter(hours)}:${formatter(minutes)}:${formatter(seconds)} ${hours >= 12 ? "PM" : "AM"}`;
   }
 
   if (hours === 0 && minutes === 0 && seconds === 0) {
