@@ -8,16 +8,14 @@
   </head>
   <body>
     <main class="main" id="main">
-      <div class="container" id="container">
         <select name="time" id="format" onchange="updateTime()">
           <option value="12">12hrs</option>
-          <option value="24">24hrs</option>
+          <option value="24" selected>24hrs</option>
         </select>
         <div class="clockFrame" id="clockFrame">
           <p id="date"></p>
           <p id="clock"></p>
         </div>
-      </div>
     </main>
     <script src="src/script.js"></script>
   </body>
