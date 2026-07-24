@@ -3,8 +3,8 @@
 A simple and responsive Digital Clock built using **HTML**, **CSS**, and **JavaScript**. The clock displays the current time and date with support for both **12-hour** and **24-hour** formats.
 
 ## 📸 Preview
-\
-[Digital Clock](assets/images/clock_preview.gif)
+
+![Digital Clock](assets/images/clock_preview.gif)
 
 ---
 
